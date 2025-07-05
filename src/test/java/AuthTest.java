@@ -11,6 +11,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class AuthTest {
 
+
     @BeforeEach
     void setup() {
         Configuration.holdBrowserOpen = true;
